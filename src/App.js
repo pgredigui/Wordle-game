@@ -20,7 +20,7 @@ const Line = ({ guess, currentLine }) => {
       }
     }
 
-    console.log("char", char, guess);
+    console.log("new release");
 
     tiles.push(
       <div className={`tile ${currentLine === false ? status : ""}`}>
